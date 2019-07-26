@@ -1,0 +1,81 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: serif;
+    font-size: 29px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Sandra.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header ul {
+     list-style: none;
+     float: right;
+     margin-top: 5px;
+     text-align: center;
+     margin-right: 100px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    color:whitesmoke;
+    text-align: center;
+}
+
+footer p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px 10%;
+}
+
+header li{
+    display: inline-block;
+    color: hotpink;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+header a{
+    color: hotpink;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header a:hover{
+    border: 1px solid hotpink;
+    padding: 10px;
+}
+
+#logo {
+    width: 65px;
+    margin: 10px;
+}
+
+main h1{
+    color: indianred;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40vh;
+}
+main p{
+    color: indianred;
+    text-align: center;
+}
+
+#active {
+    border: 1px solid hotpink;
+    padding: 10px;
+}
